@@ -164,7 +164,7 @@ i {
 
 
 
-/* Sezione discord 1 */
+/* Sezioni discord home */
 
 .container-oriz-discord {
     display: flex;
@@ -174,7 +174,6 @@ i {
 }
 
 
-
 .container-interno-discord {
     display: flex;
     align-items: center;
@@ -182,6 +181,8 @@ i {
     width: 60%;
 
 }
+
+
 
 /* Testo di fianco immagini  */
 .container-text {
