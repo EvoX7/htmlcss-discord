@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,104 +9,185 @@
 }
 
 
-/* Inizio layout */
-
-/* Corpo pagina */
+/* Header  */
 
 header {
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background-color: blueviolet;
-}
-
-.nav-container {
-    display: flex;
-    width: 1000px;
-    height: 30px;
-    margin: 0 auto;
-    background-color: rgb(235, 190, 69);
     justify-content: space-between;
     align-items: center;
-    border-radius: 4px;
-    padding: 6px;
+    padding: 30px 10%;
+    background-color: #da0a0a;
+
 }
 
-.logo {
-    flex-grow: 2;
-    flex-basis: auto;
+img {
+    width: 100%;
 }
 
-.links {
-    flex-grow: 2;
-    flex-basis: auto;
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 10%;
+    background-color: #23272a;
+}
+
+.head-links {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
 }
 
 .login {
-    flex-basis: auto;
+    background-color: #23272a;
 }
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* Header 2 */
+
+.container-jumbo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 90, 122);
+    background-size: cover;
+    background-image: url('../img/jumbo.png');
+    height: 600px;
+}
+
+/* Container Testo Principale */
+.presentation {
+    width: 900px;
+    color: white;
+}
+
+/* Titolo principale */
+.main-title {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+
+}
+
+i {
+    margin-right: 10px;
+
+}
+
+
+/* Testo principale */
+.main-opening {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+/* Bottoni grandi */
+
+.big-buttons {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 20px 35px;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    transition: transform 0.3 s ease;
+
+
+}
+
+
+/* Buttons animations per d-btn*/
+.d-btn {
+    background-color: #ffffff;
+    color: black;
+    margin-right: 10px;
+}
+
+
+
+/* Buttons animations per o-btn*/
+.o-btn {
+    background-color: #23272a;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+
 
 /* Sezioni */
 
-/* Layout rettangolo 1 */
-
-.container-rettangolo1 {
-    display: flex;
-    width: 100%;
-    background-color: rgb(7, 90, 122);
-    height: 400px;
-    justify-content: center;
-    align-items: center;
-}
-
-.rettangolo1 {
-    width: 700px;
-    height: 350px;
-    background-color: rgb(231, 104, 104);
-    border-radius: 4px;
-}
-
-/* Layout rettangolo 2 */
-
-.container-rettangolo-ua-colors {
-    display: flex;
-    width: 100%;
-    height: 400px;
-    justify-content: center;
-}
-
+/* Colori bande sfondo */
 .lightgrey {
-    background-color: rgb(184, 176, 176);
+    background-color: #f6f6f6;
 }
 
 .grey {
-    background-color: grey;
+    background-color: red;
 }
 
-.container-interno-ua-colors {
+
+/* Container Discord channels  */
+
+.container-discord {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 800px;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+.container-interno-discord {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.blue-brick {
-    width: 60%;
-    height: 350px;
+.channels {
     background-color: rgb(10, 10, 241);
+
 }
 
-.yellow-brick {
-    width: 40%;
-    height: 350px;
+/* Testo di fianco immagini */
+.container-text {
+    display: block;
+}
+
+.title {
+    width: 500px;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 60px;
+    font-weight: 80px;
     background-color: rgb(228, 206, 10);
+    margin-bottom: 10px;
 }
 
-.y-first {
-    order: -1;
+.text-p {
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: rgb(214, 213, 202);
+    line-height: 30px;
 }
+
 
 
 /* Layout rettangolo grande */
