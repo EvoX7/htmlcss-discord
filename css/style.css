@@ -47,6 +47,13 @@ nav {
 a {
     color: white;
     text-decoration: none;
+
+}
+
+a:hover {
+    transition: 0.3s step-end;
+    color: #255ee9;
+    cursor: pointer;
 }
 
 li {
@@ -357,14 +364,25 @@ h3 {
 }
 
 
-hr {
-    width: 1150px;
-    margin: 0 auto;
-    color: #5865f2;
-    
-}
-
 .bottom {
+    display: flex;
+    justify-content:space-around;
     height: 100px;
     background-color: #23272a;
 }
+
+
+.bottom-logo {
+    margin-right:  180px;
+    margin-left: 10px;
+
+}
+
+.bottom-btn-dx {
+    background-color: #5865f2;
+    color: white;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 90px;
+}
+
