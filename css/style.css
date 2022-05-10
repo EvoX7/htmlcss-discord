@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Inizio layout */
+
+/* Corpo pagina */
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.nav-container {
+    display: flex;
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: rgb(235, 190, 69);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.logo {
+    flex-grow: 2;
+    flex-basis: auto;
+}
+
+.links {
+    flex-grow: 2;
+    flex-basis: auto;
+}
+
+.login {
+    flex-basis: auto;
+}
+
+/* Sezioni */
+
+/* Layout rettangolo 1 */
+
+.container-rettangolo1 {
+    display: flex;
+    width: 100%;
+    background-color: rgb(7, 90, 122);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rettangolo1 {
+    width: 700px;
+    height: 350px;
+    background-color: rgb(231, 104, 104);
+    border-radius: 4px;
+}
+
+/* Layout rettangolo 2 */
+
+.container-rettangolo-ua-colors {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.lightgrey {
+    background-color: rgb(184, 176, 176);
+}
+
+.grey {
+    background-color: grey;
+}
+
+.container-interno-ua-colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+
+}
+
+.blue-brick {
+    width: 60%;
+    height: 350px;
+    background-color: rgb(10, 10, 241);
+}
+
+.yellow-brick {
+    width: 40%;
+    height: 350px;
+    background-color: rgb(228, 206, 10);
+}
+
+.y-first {
+    order: -1;
+}
+
+
+/* Layout rettangolo grande */
+
+.container-rettangolo-grande {
+    display: flex;
+    width: 100%;
+    background-color: rgb(73, 243, 73);
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rettangolo-grande {
+    width: 800px;
+    height: 550px;
+    background-color: rgb(233, 7, 45);
+    border-radius: 4px;
+}
+
+/* Layout stretch */
+
+.container-stretch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 410px;
+}
+
+.interno-stretch {
+    display: flex;
+    align-items: stretch;
+    width: 800px;
+    height: 400px;
+    background-color: rgb(206, 197, 197);
+}
+
+.orange-box {
+    background-color: orange;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.lightblue-box1 {
+    background-color: lightskyblue;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.lightblue-box2 {
+    background-color: lightskyblue;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.lightblue-box3 {
+    background-color: lightskyblue;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.lightblue-box4 {
+    background-color: lightskyblue;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/* Footer */
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+    margin-top: 3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Contenuto footer  */
+
+/* Bottoni  */
+
+.bottoni {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-radius: 2px;
+}
