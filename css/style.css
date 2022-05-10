@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #da0a0a;
+    background-color: #255ee9;
 
 }
 
@@ -26,30 +26,32 @@ img {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 40%;
 }
 
 .logo-img {
     width: 10%;
-    background-color: #23272a;
 }
 
-.head-links {
-    background-color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-}
 
 .login {
-    background-color: #23272a;
+    background-color: white;
+    color: black;
+
 }
 
-li, a {
+li,
+a {
     list-style: none;
     text-decoration: none;
     color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
 
 }
+
 
 
 /* Header 2 */
@@ -106,9 +108,17 @@ i {
     border-radius: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 19px;
-    transition: transform 0.3 s ease;
 
 
+}
+
+
+/* Bottoni piccoli  */
+
+.small-buttons {
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 15px;
 }
 
 
