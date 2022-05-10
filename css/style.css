@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
@@ -46,7 +46,7 @@ a {
     list-style: none;
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
 
@@ -63,7 +63,7 @@ a {
     background-color: rgb(7, 90, 122);
     background-size: cover;
     background-image: url('../img/jumbo.png');
-    height: 600px;
+    height: 500px;
 }
 
 /* Container Testo Principale */
@@ -79,8 +79,8 @@ a {
     font-size: 80px;
     font-weight: 80px;
     margin-bottom: 30px;
-
 }
+
 
 i {
     margin-right: 10px;
@@ -108,7 +108,6 @@ i {
     border-radius: 50px;
     font-family: 'Raleway', sans-serif;
     font-size: 19px;
-
 
 }
 
@@ -149,52 +148,53 @@ i {
 }
 
 .grey {
-    background-color: red;
+    background-color: rgb(83, 83, 83)(0, 0, 0);
 }
 
 
-/* Container Discord channels  */
 
-.container-discord {
+
+/* Sezione discord 1 */
+
+.container-oriz-discord {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
     width: 100%;
+    height: 600px;
+    justify-content: center;
 }
+
+
 
 .container-interno-discord {
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
+    width: 60%;
 
 }
 
-.channels {
-    background-color: rgb(10, 10, 241);
-
-}
-
-/* Testo di fianco immagini */
+/* Testo di fianco immagini  */
 .container-text {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
 }
+
 
 .title {
-    width: 500px;
+    width: 400px;
     font-family: 'Radio Canada', sans-serif;
-    font-size: 60px;
-    font-weight: 80px;
-    background-color: rgb(228, 206, 10);
+    font-size: 50px;
+    font-weight: bolder;
     margin-bottom: 10px;
+    line-height: 60px;
 }
 
+
 .text-p {
-    width: 40%;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    background-color: rgb(214, 213, 202);
+    font-size: 18px;
     line-height: 30px;
 }
 
