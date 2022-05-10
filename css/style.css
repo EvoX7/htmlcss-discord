@@ -255,8 +255,9 @@ i {
 .download2 {
     background-color: #5865f2;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
+
 
 
 /* Footer */
@@ -264,19 +265,19 @@ i {
 
 .container-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: #23272a;
     padding-top: 70px;
+    border-top: 10px red;
 
 
 }
 
 .container-int-footer {
     display: flex;
-    justify-content: flex-end;
-    width: 20%;
+    width: 60%;
 
 }
 
@@ -285,7 +286,7 @@ i {
 .left-footer {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 40%;
 
 }
 
@@ -320,12 +321,11 @@ i {
 
 .right-footer {
     display: flex;
-    justify-content: center;
-    width: 40%;
+    width: 30%;
 }
 
 .footer-links {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
     line-height: 25px;
 
@@ -341,25 +341,30 @@ h3 {
 }
 
 .f1 {
-    padding-right: 40px;
+    padding-right: 120px;
 }
 
 .f2 {
-    padding-right: 40px;
+    padding-right: 120px;
 }
 
 .f3 {
-    padding-right: 40px;
+    padding-right: 120px;
 }
 
 .f4 {
-    padding-right: 40px;
+    padding-right: 120px;
 }
 
-/* Bottom-footer  */
 
-.bottom-footer {
-    display: flex;
-    width: 200px;
-    background-color: red;
+hr {
+    width: 1150px;
+    margin: 0 auto;
+    color: #5865f2;
+    
+}
+
+.bottom {
+    height: 100px;
+    background-color: #23272a;
 }
